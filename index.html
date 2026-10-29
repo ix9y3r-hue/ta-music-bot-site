@@ -12,7 +12,7 @@
 </style>
 </head>
 <body>
-<header class="wrap nav"><a class="brand" href="#home" aria-label="T&A الرئيسية">T<span class="gradient">&</span>A</a><nav class="links" aria-label="التنقل"><a href="#features">المميزات</a><a href="#commands">الأوامر</a><a href="#invite">إضافة البوت</a></nav><a class="btn ghost invite-link" href="#invite">أضف البوت</a></header>
+<header class="wrap nav"><a class="brand" href="#home" aria-label="T&A الرئيسية">T<span class="gradient">&</span>A</a><nav class="links" aria-label="التنقل"><a href="#features">المميزات</a><a href="#commands">الأوامر</a><a href="#support">الدعم</a><a href="#legal">الخصوصية والشروط</a><a href="#invite">إضافة البوت</a></nav><a class="btn ghost invite-link" href="#invite">أضف البوت</a></header>
 <main id="home">
 <section class="wrap hero"><div class="fade"><span class="eyebrow">تجربة موسيقية مختلفة على ديسكورد</span><h1>خلّ الموسيقى<br>تجمعكم مع <span class="gradient">T&A</span></h1><p class="lead">بوت موسيقى مصمم لجلساتكم، مع تحكم سهل بالطابور والأغاني وواجهة واضحة داخل سيرفركم.</p><div class="actions"><a class="btn invite-link" href="#invite">أضف T&A إلى سيرفرك</a><a class="btn ghost" href="#features">اكتشف المميزات</a></div></div><div class="orb-wrap fade" aria-label="شعار T&A"><div class="ring r2"></div><div class="ring"></div><div class="orb"><span>T&A</span></div></div></section>
 <section class="section wrap" id="features"><div class="section-head fade"><h2>كل جلسة لها <span class="gradient">إيقاعها</span></h2><p>أدوات عملية لتخلي تشغيل الموسيقى وإدارة قائمة الانتظار أسهل.</p></div><div class="grid">
@@ -23,15 +23,21 @@
 <article class="card fade"><div class="symbol">♧</div><h3>رومات صوتية</h3><p>أدوات مساعدة لإدارة الجلسات الصوتية حسب إعدادات البوت.</p></article>
 <article class="card fade"><div class="symbol">⚙</div><h3>إعدادات واضحة</h3><p>أوامر مرتبة لتسهيل استخدام البوت على أعضاء السيرفر.</p></article>
 </div></section>
-<section class="section wrap" id="commands"><div class="section-head fade"><h2>دليل <span class="gradient">الأوامر</span></h2><p>أمثلة سريعة للأوامر الشائعة. قد تختلف الأسماء حسب إعدادات النسخة الحالية للبوت.</p></div><div class="commands fade">
-<div class="cmd"><code>/play</code><span>تشغيل أغنية أو رابط مدعوم.</span></div>
-<div class="cmd"><code>/skip</code><span>الانتقال إلى الأغنية التالية.</span></div>
-<div class="cmd"><code>/queue</code><span>عرض قائمة الانتظار.</span></div>
-<div class="cmd"><code>/pause</code><span>إيقاف التشغيل مؤقتًا.</span></div>
-<div class="cmd"><code>/resume</code><span>استئناف التشغيل.</span></div>
-<div class="cmd"><code>/اخرج</code><span>إخراج البوت من القناة الصوتية إذا كان هذا الأمر مفعّلًا.</span></div>
-</div><p class="notice">ملاحظة: هذه أمثلة توضيحية وليست تأكيدًا بأن كل أمر متاح حاليًا. راجع قائمة أوامر البوت داخل ديسكورد لمعرفة الأوامر الفعلية.</p></section>
-<section class="section wrap" id="invite"><div class="cta fade"><h2>جاهزين تبدأون؟</h2><p>أضف T&A إلى سيرفرك واستمتعوا بجلسة موسيقية مع بعض.</p><a class="btn invite-link" href="https://discord.com/oauth2/authorize?client_id=1390140608915574815&permissions=2419168032&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer">إضافة البوت إلى ديسكورد</a></div></section>
+<section class="section wrap" id="commands"><div class="section-head fade"><h2>دليل <span class="gradient">الأوامر</span></h2><p>أمثلة إرشادية؛ الأوامر المتاحة فعليًا هي التي تظهر داخل ديسكورد عند كتابة /.</p></div><div class="commands fade">
+<div class="cmd"><code>/play اسم الأغنية</code><span>طلب تشغيل أغنية بالاسم إذا كان أمر البحث متاحًا في البوت.</span></div>
+<div class="cmd"><code>/play رابط</code><span>إرسال رابط مباشر للأغنية؛ نجاح التشغيل يعتمد على دعم المصدر وإمكانية الوصول إليه.</span></div>
+<div class="cmd"><code>/skip</code><span>تخطي المقطع الحالي إذا كان الأمر متاحًا.</span></div>
+<div class="cmd"><code>/queue</code><span>عرض قائمة الانتظار إذا كان الأمر متاحًا.</span></div>
+<div class="cmd"><code>/pause</code><span>إيقاف التشغيل مؤقتًا إذا كان الأمر متاحًا.</span></div>
+<div class="cmd"><code>/resume</code><span>استئناف التشغيل إذا كان الأمر متاحًا.</span></div>
+<div class="cmd"><code>/اخرج</code><span>مغادرة القناة الصوتية إذا كان هذا الأمر مسجّلًا في البوت.</span></div>
+</div><p class="notice">قد تختلف أسماء الأوامر وخياراتها بين إصدارات البوت. لا تفترض أن كل رابط من YouTube أو SoundCloud سيعمل؛ اتبع رسالة البوت عند تعذّر تشغيل مصدر معيّن.</p></section>
+<section class="section wrap" id="support"><div class="section-head fade"><h2>الدعم والأسئلة الشائعة</h2><p>إذا واجهتك مشكلة، ابدأ بهذه الخطوات.</p></div><div class="grid">
+<article class="card fade"><h3>البوت لا يشغّل أغنية</h3><p>تحقق من اتصال البوت بالقناة الصوتية، ثم جرّب رابطًا آخر أو اسم الأغنية. بعض الروابط قد لا تكون قابلة للتشغيل.</p></article>
+<article class="card fade"><h3>الأوامر لا تظهر</h3><p>اكتب / داخل ديسكورد وتحقق من الأوامر المتاحة وصلاحيات البوت في السيرفر.</p></article>
+<article class="card fade"><h3>تحتاج إلى مساعدة؟</h3><p>رابط سيرفر الدعم غير مضاف حاليًا. أضف رابطًا رسميًا عند توفره لتوجيه المستخدمين إلى فريق الدعم.</p></article>
+</div></section>
+<section class="section wrap" id="legal"><div class="cta fade"><h2>الخصوصية وشروط الاستخدام</h2><p>لم تُضف روابط سياسة الخصوصية أو شروط الخدمة بعد. لا ننشئ روابط قانونية وهمية؛ أضف صفحات منشورة ومراجعة قبل تقديمها على أنها سياسات رسمية.</p></div></section><section class="section wrap" id="invite"><div class="cta fade"><h2>جاهزين تبدأون؟</h2><p>أضف T&A إلى سيرفرك واستمتعوا بجلسة موسيقية مع بعض.</p><a class="btn invite-link" href="https://discord.com/oauth2/authorize?client_id=1390140608915574815&permissions=2419168032&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer">إضافة البوت إلى ديسكورد</a></div></section>
 </main>
 <footer class="footer"><div class="wrap"><span>© <span id="year"></span> T&A Music Bot</span><span>صُنع لعشاق الموسيقى على ديسكورد</span></div></footer>
 <script>
